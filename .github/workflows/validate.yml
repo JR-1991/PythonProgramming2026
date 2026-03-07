@@ -1,0 +1,18 @@
+name: Validation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for old repository references
+        run: |
+          if grep -ri "JR-1991/PythonProgrammingBio24" ./docs; then
+            echo "Error: Found references to old repository JR-1991/PythonProgrammingBio24"
+            exit 1
+          fi
