@@ -38,6 +38,12 @@ The tasks in this exercise cover data clustering. You will practice the concepts
 
 ### 6. Object-oriented programming
 
-[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgramming2026/blob/master/exercises/Exercise006.ipynb)
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgramming2026/blob/master/exercises/Exercise006.ipynb) [![](https://img.shields.io/badge/Go_to_solution-blue)](https://jr-1991.github.io/PythonProgramming2026/solutions/Exercise006/)
 
 The tasks in this exercise cover object-oriented programming. You will practice the concepts of classes and objects in Python. Here it is asked to implement a class for DNA sequences and to create objects of this class to perform different operations.
+
+### 7. Extending classes by methods
+
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgramming2026/blob/master/exercises/Exercise007.ipynb)
+
+The tasks in this exercise cover extending classes by methods. You will extend your class with several methods to perform different operations on DNA sequences. Here it is asked to implement methods to calculate the length, GC content, compute the reverse complement and to translate a DNA sequence into a protein sequence.
